@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/bg-img.jpg");
+}
+
+.wrapper {
+    height: 80%;
+    width: 60%;
+    display: grid;
+    margin-top: 2rem;
+    grid-template-rows: 2rem 10rem 2rem 2rem;
+    /* background-color: black; */
+    
+    border-radius: 10px solid black;
+}
+.wraps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.wrap-contain {
+    padding-top: 2rem;
+    /* background-color: blue; */
+    margin-top: 1rem;
+    border-radius: 5px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    margin-top: 1rem;
+    
+    text-align: center;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+input {
+    font-size: 25px;
+    width: 5.5rem; 
+    color: #7856C4;
+    
+}
+
+button {
+    /* width: 70%; */
+    height: 2.5rem;
+    /* margin-top: 1rem; */
+    cursor: pointer;
+    color: white;
+    background-color: #7856C4;
+    border: 3px solid white;
+    border-radius: 3px;
+    width: 10rem;
+}
+
+#age {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: yellow; */
+    width: 100%;
+}
